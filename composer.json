@@ -1,0 +1,17 @@
+{
+  "name": "fcdniproua/contacts",
+  "description": "Contacts management package",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "Fcdniproua\\Contacts\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Fcdniproua\\Contacts\\ContactsServiceProvider"
+      ]
+    }
+  }
+}
