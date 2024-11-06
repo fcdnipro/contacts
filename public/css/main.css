@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #495057;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+.form-control {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.form-phone {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#addPhone {
+    margin-top: 10px;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    margin: 5px;
+    border: none;
+    color: white;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+}
+
+.table {
+    width: 100%;
+    margin-top: 30px;
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table .btn-danger {
+    width: 100%;
+}
+
+#phoneFields {
+    margin-bottom: 15px;
+}
+
+.phone-field {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.phone-field input[type="tel"] {
+    width: calc(100% - 50px);
+    margin-right: 10px;
+}
+
+.phone-field button {
+    width: 40px;
+    padding: 5px;
+}
+
+@media (max-width: 768px) {
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+    .form-control {
+        width: 100%;
+    }
+
+    .table th, .table td {
+        padding: 8px;
+    }
+}
